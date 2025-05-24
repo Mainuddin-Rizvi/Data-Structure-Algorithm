@@ -1,7 +1,9 @@
+package Map_Dictionary;
+
 import java.util.LinkedList;
 
 /**
- * HashTable.java
+ * Map_Dictionary.HashTable.java
  *
  * A generic hash table implementation using chaining to resolve collisions.
  * Supports dynamic resizing based on load factor.
@@ -205,7 +207,7 @@ public class HashTable<K, V> {
     }
 
     /**
-     * Main method to test the HashTable functionality.
+     * Main method to test the Map_Dictionary.HashTable functionality.
      */
     public static void main(String[] args) {
         HashTable<String, Integer> table = new HashTable<>();

@@ -1,5 +1,7 @@
+package Map_Dictionary;
+
 /**
- * Custom HashMap implementation where both key and value are integers.
+ * Custom Map_Dictionary.HashMap implementation where both key and value are integers.
  *
  * Supports basic operations: put, get, and remove.
  * Uses chaining with linked list to resolve collisions.
@@ -107,7 +109,7 @@ class HashMap {
     }
 
     /**
-     * Main method to test HashMap functionality.
+     * Main method to test Map_Dictionary.HashMap functionality.
      */
     public static void main(String[] args) {
         HashMap hashMap = new HashMap();

@@ -1,7 +1,9 @@
+package Map_Dictionary;
+
 import java.util.LinkedList;
 
 /**
- * Custom HashSet implementation without using built-in hash table libraries.
+ * Custom Map_Dictionary.HashSet implementation without using built-in hash table libraries.
  *
  * This class provides basic operations: add, remove, and contains.
  * Uses chaining with LinkedList to handle collisions.
@@ -60,7 +62,7 @@ class HashSet {
     }
 
     /**
-     * Main method to test HashSet functionality.
+     * Main method to test Map_Dictionary.HashSet functionality.
      */
     public static void main(String[] args) {
         HashSet hashSet = new HashSet();
